@@ -1,0 +1,100 @@
+body{
+    margin: 0 ;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+    /* HEADER */
+.hero{
+    border: 5px solid red;
+    background-image: url(../imagens/bg-1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: bottom right center;
+    padding-top:1px ;
+}
+.hero-content{
+    border: 5px solid red;
+    margin: 120px auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.hero-content h1{
+    
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.hero-content p{
+    background-color: rgba(0,0,0, .7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px solid;
+}
+.hero nav ul{
+    border: 5px solid red;  
+    margin: 20px 80px 0 0;
+    list-style-type: none;
+    text-align: right;
+}
+.hero nav li{
+    
+    display: inline-block;
+    border: 1px solid white;
+    margin-left :16px;
+}
+.hero nav a{
+    
+    background-color: rgba(0,0,0, .3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.hero nav a:hover{
+    background-color: rgba(0,0,0, .7);
+}
+    /* MAIN */
+main{
+    border: 5px solid rgb(30, 255, 0);;
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+article{
+    border: 5px solid rgb(0, 119, 255);
+    background-color: white;
+    padding: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+article h2{
+
+    background-color: #eee;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    margin-top: 0;
+}
+article a.btn{
+    border: 5px solid red;
+    background-color: #cdc7c3;
+    display: block;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-left: auto;
+    width: fit-content;
+}
+.final{
+    border: 5px solid red;
+    color: white;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 32px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="styles/style1.css"> -->
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0 ;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+    /* HEADER */
+.hero{
+    background-image: url(../imagens/bg-1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: bottom right center;
+    padding-top:1px ;
+}
+.hero-content{
+    margin: 120px auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.hero-content h1{
+    
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.hero-content p{
+    background-color: rgba(0,0,0, .7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px solid;
+}
+.hero nav ul{
+    margin: 20px 80px 0 0;
+    list-style-type: none;
+    text-align: right;
+}
+.hero nav li{
+    
+    display: inline-block;
+    border: 1px solid white;
+    margin-left :16px;
+}
+.hero nav a{
+    
+    background-color: rgba(0,0,0, .3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.hero nav a:hover{
+    background-color: rgba(0,0,0, .7);
+}
+    /* MAIN */
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+article{
+    background-color: white;
+    padding: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+article h2{
+
+    background-color: #eee;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    margin-top: 0;
+}
+article a.btn{
+    background-color: #cdc7c3;
+    display: block;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-left: auto;
+    width: fit-content;
+}
+.final{
+    color: white;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 32px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Cursos</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Cursos serfrontend</h1>
+            <p class="subtitulo">Tudo o que precisa saber para iniciar na carreira</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <article>
+                    <header>
+                        <h2>O HTML</h2>
+                    </header>
+                        <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.
+                        </p>
+                        <a href="#" class="btn"> Grande saiba mais</a>
+                </article>
+                <article>
+                    <header>
+                        <h2>O CSS</h2>
+
+                    </header>
+                    <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.</p>
+                    <a href="#" class="btn">Saiba mais</a>
+                </article>
+                <article>
+                    <header>
+                        <h2>JavaScript</h2>
+
+                    </header>
+                    <p>JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). Saiba mais sobre o JavaScript.
+                    </p>
+                    <a href="#" class="btn">Saiba mais</a>
+                </article>
+            </section>
+
+        </div>
+    </main>
+    <footer class="final">
+        Copyright &copy; 2024
+    </footer>
+</body>
+</html>
+
